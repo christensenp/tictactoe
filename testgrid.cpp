@@ -1,4 +1,4 @@
-#include "grid.h"
+#include "Game.h"
 #include <iostream>
 
 int main()
@@ -12,10 +12,11 @@ int main()
 
     gsquare.setMarker(Marker::O);
     std::cout << gsquare.print() << "\n";
-    */
+    */  
 
-    Grid grid;
-    grid.printGrid();
-    
+    Game game;
+    game.printGrid();
+    game.startGame();
+
     return 0;
 }
